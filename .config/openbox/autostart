@@ -1,0 +1,9 @@
+setxkbmap -layout de &
+pulseaudio -D &
+lxpolkit &
+nitrogen --restore
+compton &
+conky &
+tint2 &
+pnmixer &
+./telegram.sh
